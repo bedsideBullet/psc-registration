@@ -106,7 +106,20 @@ const RegistrationForm = () => {
 					}}
 				/>
 			</Container>
-
+			<Box
+				sx={{
+					position: "fixed",
+					top: 0,
+					left: 0,
+					width: "100vw",
+					height: "100vh",
+					backgroundImage: "url('src/assets/Untitled (26).png')",
+					backgroundSize: "cover",
+					backgroundPosition: "center",
+					backgroundRepeat: "no-repeat",
+					zIndex: -1,
+				}}
+			/>
 			<Container component="main" maxWidth="sm">
 				<Box
 					sx={{
@@ -114,6 +127,10 @@ const RegistrationForm = () => {
 						display: "flex",
 						flexDirection: "column",
 						alignItems: "center",
+						backgroundColor: "rgba(255, 255, 255, 0.8)",
+						py: 3,
+						px: 5,
+						borderRadius: 5,
 					}}
 				>
 					<Typography component="h1" variant="h3">
